@@ -2,7 +2,7 @@
 
 A comprehensive web-based server status dashboard that displays real-time status of multiple servers, along with authentication for authorized access. The dashboard provides a visual overview of server health, allowing users to quickly identify issues and view detailed information about each server.
 
-![Dashboard Preview](https://placeholder.svg?height=400&width=800)
+![Dashboard Preview](dashboard.png?height=400&width=800)
 
 ## 🚀 Live Demo
 
