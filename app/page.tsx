@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import * as echarts from "echarts";
+import { CallbackDataParams } from 'echarts/types/dist/shared';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import IncidentHistory from "./components/IncidentHistory";
@@ -102,9 +103,12 @@ const App: React.FC = () => {
           textStyle: {
             color: "#333",
           },
-          formatter: function (params: any) {
-            const data = params[0];
-            return `${data.name}<br/>${data.seriesName}: ${data.value} ms`;
+          formatter: function (params: CallbackDataParams | CallbackDataParams[]) {
+            if (Array.isArray(params)) {
+              const data = params[0];
+              return `${data.name}<br/>${data.seriesName}: ${data.value} ms`;
+            }
+            return `${params.name}<br/>${params.seriesName}: ${params.value} ms`;
           },
         },
       };
