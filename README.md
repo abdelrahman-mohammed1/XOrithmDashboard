@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# XOrithm Service Status Dashboard
 
-## Getting Started
+A comprehensive web-based server status dashboard that displays real-time status of multiple servers, along with authentication for authorized access. The dashboard provides a visual overview of server health, allowing users to quickly identify issues and view detailed information about each server.
 
-First, run the development server:
+![Dashboard Preview](https://placeholder.svg?height=400&width=800)
+
+## 🚀 Live Demo
+
+[View Live Demo](https://xorithm-dashboard.vercel.app) (Replace with your actual deployment URL)
+
+## ✨ Features
+
+### Dashboard
+
+- Real-time server status monitoring
+- Visual indicators for server status (Up, Degraded, Down)
+- Filtering and sorting capabilities
+- Search functionality for servers
+- Summary statistics of overall server health
+
+### Server Details
+
+- Comprehensive server information display
+- Performance metrics (CPU, memory, disk usage)
+- Response time and uptime statistics
+- Historical status changes
+- Detailed server logs
+
+### Additional Features
+
+- Responsive design for all device sizes
+- Interactive charts and graphs
+
+## 🛠️ Technologies Used
+
+- **Frontend**: Next.js 14 (App Router), React, TypeScript
+- **Styling**: Tailwind CSS
+- **State Management**: useState
+- **Data Visualization**: Chart.js (or similar library)
+- **Deployment**: Vercel
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18.x or higher
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/abdelrahman-mohammed1/XOrithmDashboard.git
+cd XOrithmDashboard
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
