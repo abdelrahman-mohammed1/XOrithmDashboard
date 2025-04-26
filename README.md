@@ -2,11 +2,11 @@
 
 A comprehensive web-based server status dashboard that displays real-time status of multiple servers, along with authentication for authorized access. The dashboard provides a visual overview of server health, allowing users to quickly identify issues and view detailed information about each server.
 
-![Dashboard Preview](dashboard.png?height=400&width=800)
+![Dashboard Preview](public/dashboard.png?height=400&width=800)
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://xorithm-dashboard.vercel.app) (Replace with your actual deployment URL)
+[View Live Demo](https://x-orithm-dashboard-wh15.vercel.app/)
 
 ## ✨ Features
 
